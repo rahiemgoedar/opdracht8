@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+       <title> Rahiem's Webpagina </title>
+       <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+
+<body>
+       <header>
+
+              <h1>Contactformulier</h1>
+       </header>
+       <main>
+              <form name="contact" method="POST" data-netlify="true">
+                     <p>
+                            <label>Naam: <input type="text" name="name" /></label>
+                     </p>
+                     <p>
+                            <label>Email: <input type="email" name="email" /></label>
+                     </p>
+                     <p>
+                            <label>Mobiel: <input type="tel" name="tel" /></label>
+                     </p>
+                     <p>
+                            <label>Leeftijd: <input type="number" name="number" /></label>
+                     </p>
+                     <p>
+                            <label>Geboortedatum: <input type="date" name="date" /></label>
+                     </p>
+                     <p>
+                            <label>Man: <input type="radio" name="button" /></label>
+                            <label>Vrouw: <input type="radio" name="button" /></label>
+                     </p>
+                     <p> Favoriete Cuisine:
+                            <br>
+                            <label>Frans <input type="checkbox" name="checkbox" /></label>
+                            <label>Italiaans <input type="checkbox" name="checkbox" /></label>
+                            <label>Spaans <input type="checkbox" name="checkbox" /></label>
+                            <label>Arabisch <input type="checkbox" name="checkbox" /></label>
+                     </p>
+                     <p>
+                            <label>Favoriete kleur short <input type="color" name="color" /></label>
+                     </p>
+
+                     <p>
+                            <label>Biografie: <textarea name="message"></textarea></label>
+                     </p>
+                     <p>
+                            <label>Upload je laatste recept: <input type="file" name="file" /></label>
+                     </p>
+                     <p>
+                            <label>Website naar je recepten: <input type="url" name="url" /></label>
+                     </p>
+                     <p>
+                            <button type="submit">Verzenden</button>
+                            <button type="reset">reset</button>
+                     </p>
+              </form>
+       </main>
+       <nav>
+              <a href="index.html">Home</a>
+       </nav>
+</body>
+
+</html>
